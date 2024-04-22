@@ -1,34 +1,79 @@
 a:link { 
-    text-decoration: none; 
-  } 
-  a:visited { 
-    text-decoration: none; 
-  } 
-  a:hover { 
-    text-decoration: none; 
-  } 
-  a:active { 
-    text-decoration: none; 
-  }
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 body {
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    background-color: #ddd;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #ddd;
+  background-image: url("BG.PNG");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 hr{
-    color: #ddd;
+  color: #ddd;
 }
-navigation{
-    position:fixed;
-    top:0;
-    width:100%;
+.registerbutton{
+  position:fixed;
+  justify-content: center;
+  align-items: center;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  background-color: #EFA94A;
+  height: 50px;
+  transition:
+      0.5s ease;
 }
+
+registerbutton::before{
+transform: scaleX(0);
+transform: scaleY(0);
+transform-origin: center;
+}
+
+registerbutton:hover::before {
+transform: scaleX(1);
+transform: scaleY(1);
+transform-origin: center;
+}
+
+registerbutton::before {
+content: " ";
+background: rgb(63, 63, 63);
+width: 100px;
+height: 50px;
+transition: transform .3s ease;
+}
+
+.growflash{
+  position:fixed;
+  right: 0px;
+  top: 0px;
+  height: 0;
+  width: 0;
+  background-color: #EFA94A;
+  transition:
+      0s;
+}
+.registerflash {
+  right: calc((100vw - 300px)/2);
+  top: calc((100vh - 600px)/2);
+  height: 600px;
+  width: 300px;
+  transition:
+    0.5s ease;
+  }
