@@ -1,2 +1,2 @@
-# 351website
-351 human computer interaction assignment 1
+# 350website
+350 human computer interaction high fidelity prototype assignment
