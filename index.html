@@ -1,19 +1,188 @@
 <html>
 <head>
-    <title>Yi-Chen's Freecycle Website</title>
+    <title>Yi-Chen's Freecycling! Website</title>
     <link rel="stylesheet" href="index.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1f3979a58.js" crossorigin="anonymous"></script>
 </head>
 <body>
+        <!-- CONTENT HERE -->
 
-        <div id="registerbutton" class="registerbutton">
-            <div id="trigger-modal">register</div>
+        <div class="content">
+
+            <div class="banner">
+                <h1>JOIN US IN FREECYCLING! TODAY!</h1>
+            </div>
+
+            <div class="intro">
+                <p>Freecycling! is a platform for
+                    communities to give away what
+                    they no longer need, ensuring
+                    that nothing is wasted.</p>
+            </div>
+
+            <div class="searchbar contentsearch">
+                <select name="category" class="searchcategory">
+                    <option value="All">All</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Electronics ">Electronics</option>
+                    <option value="Media">Media</option>
+                    <option value="Automotive">Automotive</option>
+                  </select>
+                <div class = "searchdivider"></div>
+                <input type="text" name="search" placeholder="Search..." class="searchbox" autocomplete="off">
+                <div class="buttonfx altbutton contentsearchbutton">
+                    <p class="buttontext"><i class="fa fa-search" aria-hidden="true"></i></p>
+                </div>
+            </div>
+
+            <div class="twobuttons">
+
+                <div class="buttonfx altbutton leftbutton">
+                    <p class="buttontext"><i class="fa-solid fa-eye"></i> All</p>
+                </div>
+                <div class="buttonfx altbutton rightbutton">
+                    <p class="buttontext"><i class="fa-solid fa-plus"></i> Post</p>
+                </div>    
+            </div>
+
+            <div class="previewshelf">
+                
+                <div class="buttonfx preview altbutton preview1">
+                    <img class="previewimg" src="IMG_20210226_194543.jpg" alt="lobster mac 'n cheese">
+                    <div class="buttontext">
+                        <h1 class="previewtitle">Lobster Mac 'n Cheese</h1>
+                        <p class="previewlocation">Auckland CBD, Auckland</p>
+                    </div>
+                </div>
+                <div class="buttonfx preview altbutton preview2">
+                    <img class="previewimg" src="IMG_20210226_194543.jpg" alt="lobster mac 'n cheese">
+                    <div class="buttontext">
+                        <h1 class="previewtitle">Lobster Mac 'n Cheese</h1>
+                        <p class="previewlocation">Auckland CBD, Auckland</p>
+                    </div>
+                </div>
+                <div class="buttonfx preview altbutton preview3">
+                    <img class="previewimg" src="IMG_20210226_194543.jpg" alt="lobster mac 'n cheese">
+                    <div class="buttontext">
+                        <h1 class="previewtitle">Lobster Mac 'n Cheese</h1>
+                        <p class="previewlocation">Auckland CBD, Auckland</p>
+                    </div>
+                </div>
+
+                <div class="buttonfx preview altbutton preview4">
+                    <img class="previewimg" src="IMG_20210226_194543.jpg" alt="lobster mac 'n cheese">
+                    <div class="buttontext">
+                        <h1 class="previewtitle">Lobster Mac 'n Cheese</h1>
+                        <p class="previewlocation">Auckland CBD, Auckland</p>
+                    </div>
+                </div>
+
+                <div class="buttonfx preview altbutton preview5">
+                    <img class="previewimg" src="IMG_20210226_194543.jpg" alt="lobster mac 'n cheese">
+                    <div class="buttontext">
+                        <h1 class="previewtitle">Lobster Mac 'n Cheese</h1>
+                        <p class="previewlocation">Auckland CBD, Auckland</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div id="growflash" class="growflash" style="background-color: #EFA94A; transition-delay: 25ms;"></div>
-        <div id="growflash" class="growflash" style="background-color: #634aef; transition-delay: 50ms;"></div>
-        <div id="growflash" class="growflash" style="background-color: #ef4ad6; transition-delay: 75ms;"></div>
-        <div id="growflash" class="growflash" style="background-color: #d6ef4a; transition-delay: 100ms;"></div>
-        <div id="growflash" class="growflash" style="background-color: rgb(63, 63, 63); transition-delay: 125ms;"></div>
-        <script src="index.js"/>
+
+        <div class="footer">
+            <div class="footersection">
+                <h1>ABOUT US</h1>
+                <p>Freecycling! is a platform for<br>
+                    communities to give away what<br>
+                    they no longer need, ensuring<br>
+                    that nothing is wasted.</p>
+            </div>
+            <div class="footersection">
+                <h1>CONTACT</h1>
+                <p>Phone: ## ## ### #####</p>
+                <p>Email: email@mailhost.com</p>
+            </div>
+            <div class="footersection">
+                <h1>ADDRESS</h1>
+                <p>Addressy address, Addressville,<br>
+                    Addressland</p>
+            </div>
+            <div class="footersection">
+                <h1>SUPPORT</h1>
+                <a href="index.html">FAQ</a>
+                <a href="index.html">Account</a>
+                <a href="index.html">Listing</a>
+                <a href="index.html">Other</a>
+            </div>
+        </div>
+
+        <!-- NAVBAR STARTS HERE -->
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><h1><i class="fa-solid fa-recycle"></i> FREECYCLING!</h1></a>
+            </div>
+            <div class="searchbar navsearch">
+                <select name="category" class="searchcategory">
+                    <option value="All">All</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Electronics ">Electronics</option>
+                    <option value="Media">Media</option>
+                    <option value="Automotive">Automotive</option>
+                </select>
+                <div class = "searchdivider"></div>
+                <input type="text" name="search" placeholder="Search..." class="searchbox" autocomplete="off">
+                <div class="buttonfx altbutton navsearchbutton">
+                    <p class="buttontext"><i class="fa fa-search" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttonfx altbutton signinbutton">
+            <p class="buttontext"><i class="fa-solid fa-right-to-bracket"></i> Sign in</p>
+        </div>
+
+        <!-- REGISTER FORM STARTS HERE -->
+
+        <div id="blur" class="blur"></div>
+        <div id="growflash" class="growflash growflash1" style="transition-delay: 0s;"></div>
+        <div id="growflash" class="growflash growflash2" style="transition-delay: 25ms;"></div>
+        <div id="growflash" class="growflash growflash3" style="transition-delay: 50ms;"></div>
+        <div id="growflash" class="growflash growflash4" style="transition-delay: 75ms;"></div>
+        <div id="formbackground" class="growflash growflash5 formbackground"></div>
+        <div id="form-ct" class="form">
+            <div id="closeform" class="buttonfx altbutton closeform">
+                <div class="buttontext">
+                    &#10005;
+                </div>
+            </div>
+            <form>
+                <h1>Sign up</h1>
+                <div id="user-details" class="formsection">
+                    <input class="form-text-fields" type="text" name="first-name" placeholder="First name">
+                    <input class="form-text-fields" type="text" name="last-name" placeholder="Last name">
+                    <input class="form-text-fields" type="text" name="username" placeholder="Username">
+                    <input class="form-text-fields" type="text" name="password" placeholder="Password">
+                </div>
+                <div id="address-details" class="formsection">
+                    <input class="form-text-fields" type="text" name="home-address" placeholder="Home Address">
+                    <input class="form-text-fields" type="text" name="work-address" placeholder="Work Address">
+                </div>
+                <div id="contact-details" class="formsection">
+                    <input class="form-text-fields" type="text" name="mobile-number" placeholder="Mobile Number">
+                    <input class="form-text-fields" type="text" name="email"  placeholder="Email">
+                </div>
+                <button class="buttonfx submitbutton" type="submit">
+                    <p class="buttontext submittext"><i class="fa-solid fa-check"></i> Submit</p>
+                </button>
+            </form>
+        </div>
+
+        <div id="trigger-modal" class="buttonfx registerbutton">
+            <p class="buttontext"><i class="fa-solid fa-user-plus"></i> Sign up</p>
+        </div>
+        <script src="index.js"></script>
     
 </body>
 </html>
