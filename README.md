@@ -1,2 +1,2 @@
 # 350website
-350 human computer interaction high fidelity prototype assignment
+Website created for my 350 human-computer interaction high-fidelity prototype assignment.
