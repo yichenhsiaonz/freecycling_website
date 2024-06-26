@@ -1,2 +1,2 @@
-# 350website
-Website created for my 350 human-computer interaction high-fidelity prototype assignment.
+# freecycling_website
+Website created for my human-computer interaction paper's high-fidelity prototype assignment.
